@@ -26,8 +26,8 @@ function Header() {
 
             <ul className='hidden md:flex gap-10'>
                 <Link to="/home" className='cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100'><li>Home</li></Link>
-                <a href="" className='cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100'><li>Products</li></a>
-                <a href="" className='cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100'><li>About</li></a>
+                <Link to='/product' className='cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100'><li>Products</li></Link>
+                <Link to="/about" className='cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100'><li>About</li></Link>
                 <Link to="/contact" className='cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100'><li>Contact Us</li></Link>
             </ul>
             
@@ -50,8 +50,8 @@ function Header() {
 
                         <ul className='hidden md:flex gap-10'>
                             <Link to="/home" className='cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100'><li>Home</li></Link>
-                            <a href="" className='cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100'><li>Products</li></a>
-                            <a href="" className='cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100'><li>About</li></a>
+                            <Link to='/product' className='cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100'><li>Products</li></Link>
+                            <Link to="/about" className='cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100'><li>About</li></Link>
                             <Link to="/contact" className='cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100'><li>Contact Us</li></Link>
                         </ul>
 

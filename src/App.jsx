@@ -6,6 +6,7 @@ import Home from './Componets/Page/Home/Home'
 import AdminDashBoard from './Componets/Page/AdminDashBoard/AdminDashBoard'
 import ContactUs from './Componets/Page/Contact Us/ContactUs'
 import Product from './Componets/Page/Products/Product'
+import About from './Componets/Page/About/About'
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
           <Route path="/admin-dashBoard" element={<AdminDashBoard/>} />
           <Route path="/contact" element={<ContactUs/>} />
           <Route path="/product" element={<Product/>} />
+          <Route path="/about" element={<About/>} />
           
       </Routes>
     </>
